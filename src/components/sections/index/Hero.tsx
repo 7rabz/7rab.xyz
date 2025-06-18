@@ -16,7 +16,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
           ref={descRef}
         >
           <h1 className="font-bold lg:text-7xl md:text-6xl sm:text-5xl text-4xl flex items-center">
-            Heya! I'm Silly Hexa! :3 <span className="text-gray-500 text-xs ml-2">aka, Adien</span><span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
+            Heya! I&apos;m Silly Hexa! :3 <span className="text-gray-500 text-xs ml-2">aka, Adien</span><span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
           </h1>
           <p className="font-semibold lg:text-3xl md:text-2xl sm:text-xl text-lg">
             {inView &&
