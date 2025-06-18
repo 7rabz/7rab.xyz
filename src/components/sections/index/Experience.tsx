@@ -28,7 +28,7 @@ export default function Experience() {
                             "Nightmare was orignally based on Fermium, a fake \"Alt Controller\" which people bought and believed in, Fermium was actually already deployed & working, but it was just a popular roblox script called Nameless Admin, they couldnt have more than 1+ customer using the bot at once.",
                             "But in the end, Nightmare is offically discontinued on 6/16/2025, I sadly can't handle the website nor script anymore, None of the sources are for sale! This has been a nice ride for all of us. Thank you <3"
                         ]}
-                        cardImage="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/giqhlh0p.png"
+                        cardImage="https://cdn.discordapp.com/icons/1248256088298623007/2fa7f83db50ddc7170e84bd3e777f933.webp?size=1024"
                         cardDescription="I have been running Nightmare for over a year now, crazy right? Nightmare taught me alot of things that a basic programmer should know..."
                         media={[
                             "https://files.catbox.moe/edplr6.mp4",
