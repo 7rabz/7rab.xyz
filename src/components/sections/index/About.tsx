@@ -73,7 +73,7 @@ export default function About() {
           />
           <AboutCard
             title="Frontend"
-            description="I have about 6 months of solid experience overall, but I've been building frontends for nearly 3 years. It might sound a bit odd, but frontend has never really been my main focus."
+            description="I have about 6 months of solid experience overall, but I've been building frontends for nearly 9 months years, Frontend has never really been my main focus."
             tech={frontendTech}
             direction="left"
             span={1}
@@ -82,7 +82,7 @@ export default function About() {
           />
           <AboutCard
             title="Backend"
-            description="I've got nearly 2 years of experience with backends, and I love experimenting with anything that connects or integrates with them :3"
+            description="I've got nearly 2 years of experience with backends, and I love connecting or integrates with them! I mainly only focus on Backend than anything else :3"
             tech={backendTech}
             direction="right"
             span={1}
