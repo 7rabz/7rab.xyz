@@ -26,41 +26,25 @@ export default function Projects() {
             </div>
           }
           <ProjectCard
-            url="https://lilith.aiden.gg"
-            title="Lilith Website"
+            url="https://nightm4re.cc"
+            title="Nightmare"
             fullDescription={[
-              "Lilith is a proxy mod for Hypixel that lets you to see the stats of other players in your game, auto dodge games that have cheaters, lookup stats for any player in game, and more.",
-              "Unfortunately right as the new website was about to launch the creator of Lilith had to discontinue the project due to a change that Hypixel made that not only killed off Lilith but multiple other projects like it.",
+              "I have been running Nightmare for over a year now, crazy right? Nightmare taught me alot of things that a basic programmer should know, of course one of them was security because we nearly got breached in the early months.",
+              "Nightmare's most notable project is NightAuth, which helps people to integrate all their data into the script, kinda like a authentication system but tweaked. NightAuth is made with JS and hosted on Namecheap's Stellar subscription",
+              "Nightmare is basically handled by a single developer, which is me, I host all projects and sub-projects for nightmare, and I handle all Backend + Frontend, along with User Data",
+              "Nightmare was orignally based on Fermium, a fake \"Alt Controller\" which people bought and believed in, Fermium was actually already deployed & working, but it was just a popular roblox script called Nameless Admin, they couldnt have more than 1+ customer using the bot at once.",
+              "But in the end, Nightmare is offically discontinued on 6/16/2025, I sadly can't handle the website nor script anymore, None of the sources are for sale! This has been a nice ride for all of us. Thank you <3"
             ]}
-            cardImage="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/k2irxpbf.png"
-            cardDescription="Lilith is a proxy mod for Hypixel that lets you to see the stats of other players in your game, auto dodge games that have cheaters, lookup stats for any player in game, and more."
+            cardImage="https://cdn.discordapp.com/icons/1248256088298623007/2fa7f83db50ddc7170e84bd3e777f933.webp?size=1024png"
+            cardDescription="Nightmare is a Advanced Roblox Alt Controler, an Alt Control Script (ARAC, or ACS) | Nightmare can be used to manage your roblox workspace or just used for fun."
             media={[
-              "https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/7l2m7dcd.mp4",
-              "https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/oxj9zman.png"
+              "https://files.catbox.moe/edplr6.mp4",
+              "https://files.catbox.moe/u0hzzl.mp4",
+              "https://files.catbox.moe/d6mtbp.mp4",
             ]}
-            myRole="Frontend Developer/Designer"
-            timeline="August 2024 - August 2024"
+            myRole="Founder/Head Developer"
+            timeline="June 2024 - June 2025"
             delay={0.1}
-            gradient="bg-gradient-to-tl"
-          />
-          <ProjectCard
-            url="https://tnttag.info"
-            title="TNTTag Info"
-            fullDescription={[
-              "TNTTag info is a stats website for the Hypixel game 'TNT Tag'. You can view player stats or view the top 100 leaderboard. There is also a discord bot you can invite to your server.",
-              "This website was made because at the time there wasn't a good place to view every single TNT Tag stat. TNT Tag is one of my favorite games on Hypixel and I wanted to make a website that would help the community.",
-              "There is also a proxy mod to go along with it that uses the same API as the website. The mod has features like player list stats, audible count down, powerup notifications, and more.",
-            ]}
-            cardImage="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/8e6lpnrw.png"
-            cardDescription="TNTTag info is a stats website for the Hypixel game 'TNT Tag'. You can view player stats or view the top 100 leaderboard. There is also a discord bot you can invite to your server."
-            media={[
-              "https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/8e6lpnrw.png",
-              "https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/zptwyhjn.png",
-              "https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/77qjr509.png"
-            ]}
-            myRole="Founder, Head Developer, Designer"
-            timeline="March 2023 - Present"
-            delay={0.2}
             gradient="bg-gradient-to-tl"
           />
         </ul>
