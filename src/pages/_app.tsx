@@ -9,18 +9,18 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextSeo
-        title={"Aiden.gg"}
-        description={"Aiden's personal site"}
-        canonical={`https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
+        title={"[ 7rab.xyz ~ sillyhexa / bio ]"}
+        description={"Adien's personal website, hosted on a few potatos and some kilobytes of ram."}
+        canonical={`https://7rab.xyz${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
         themeColor={"#2563eb"}
         openGraph={{
-          url: `https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
-          title: "Aiden.gg",
-          description: "Aiden's personal site",
+          url: `https://7rab.xyz${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
+          title: "[ 7rab.xyz ~ sillyhexa / bio ]",
+          description: "Adien's personal website, hosted on a few potatos and some kilobytes of ram.",
           images: [
             {
-              url: "https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/lbo1x6wn.png",
-              alt: "Oliver",
+              url: "https://cdn.discordapp.com/avatars/1042440993028460594/8fb2a45a551b86f0489d8af28456e31c.webp?size=1024",
+              alt: "silly hexa!",
             },
           ],
         }}
