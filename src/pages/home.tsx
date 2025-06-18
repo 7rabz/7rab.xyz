@@ -33,7 +33,7 @@ export default function Home() {
                 />
                 <div className='max-w-5xl w-full mx-auto'>
                     <h1 className={`${pageLoad ? 'animate-fade-in-top' : 'opacity-0'} font-bold sm:text-6xl text-4xl text-center`}>
-                        Welcome back, Aiden 👋
+                        Welcome back, Adien 👋
                     </h1>
                     <div className={`${pageLoad ? 'animate-fade-in-bottom' : 'opacity-0'} w-1/2 mx-auto pt-8`}>
                         <label htmlFor="search" className="block text-sm font-medium leading-6">
