@@ -22,6 +22,7 @@ export default function Experience() {
                         url="https://nightm4re.cc"
                         title="Nightmare.cc"
                         fullDescription={[
+                            "Nightmare is a Advanced Roblox Alt Controler, an Alt Control Script (ARAC, or ACS) | Nightmare can be used to manage your roblox workspace or just used for fun.",
                             "I have been running Nightmare for over a year now, crazy right? Nightmare taught me alot of things that a basic programmer should know, of course one of them was security because we nearly got breached in the early months.",
                             "Nightmare's most notable project is NightAuth, which helps people to integrate all their data into the script, kinda like a authentication system but tweaked. NightAuth is made with JS and hosted on Namecheap's Stellar subscription",
                             "Nightmare is basically handled by a single developer, which is me, I host all projects and sub-projects for nightmare, and I handle all Backend + Frontend, along with User Data",
@@ -29,7 +30,7 @@ export default function Experience() {
                             "But in the end, Nightmare is offically discontinued on 6/16/2025, I sadly can't handle the website nor script anymore, None of the sources are for sale! This has been a nice ride for all of us. Thank you <3"
                         ]}
                         cardImage="https://cdn.discordapp.com/icons/1248256088298623007/2fa7f83db50ddc7170e84bd3e777f933.webp?size=1024"
-                        cardDescription="I have been running Nightmare for over a year now, crazy right? Nightmare taught me alot of things that a basic programmer should know..."
+                        cardDescription="Nightmare is a Advanced Roblox Alt Controler, an Alt Control Script (ARAC, or ACS) | Nightmare can be used to manage your roblox workspace or just used for fun."
                         media={[
                             "https://files.catbox.moe/edplr6.mp4",
                             "https://files.catbox.moe/u0hzzl.mp4",
