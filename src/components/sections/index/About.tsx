@@ -97,7 +97,7 @@ export default function About() {
         <ul className="grid grid-cols-2 gap-4 mt-4">
           <AboutCard
             title="Overall"
-            description="I've been x websites and other projects since the age of 15 but didn't learn how to code until I was 16 as it took me a bit to find a good way to start learning. By the end of my education, I hope to secure a rewarding job in web development, as it is a lifelong passion of mine. I enjoy creating things and find great satisfaction when others genuinely use and appreciate the end product."
+            description="Heya, I've been in the coding scene for a while now, nearly 4 years all in total! I'm normally nice to everyone unless your a mean kitty :("
             direction="top"
             span={2}
             delay={0.1}
@@ -105,7 +105,7 @@ export default function About() {
           />
           <AboutCard
             title="Frontend"
-            description="I have a little over 2 years of experience with frontend development, and I have worked with a variety of different frameworks and libraries."
+            description="I have around 6 months of experience! But I've been making Frontend's for 3 years, doesn't make much sense but I dont focus on Frontend."
             tech={frontendTech}
             direction="left"
             span={1}
@@ -114,7 +114,7 @@ export default function About() {
           />
           <AboutCard
             title="Backend"
-            description="I have a little over 1 year of experience with backend development. I have used different frameworks and runtimes to create various APIs."
+            description="I have nearly 2 years of experience with backends! and I love messing around with whatever's integrated with it :3"
             tech={backendTech}
             direction="right"
             span={1}
@@ -123,7 +123,7 @@ export default function About() {
           />
           <AboutCard
             title="Other Technologies"
-            description="When it comes to the development process, I use a wide variety of tools, services, and technologies."
+            description="When it comes to the development process, I use alot of major tools to help me."
             tech={otherTech}
             direction="bottom"
             span={presence && presence.activities.length > 0 ? 1 : 2}
