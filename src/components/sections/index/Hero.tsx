@@ -23,7 +23,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
               <Typewriter
                 options={{
                   delay: 30,
-                  strings: ["I'm a 16yo silly developer, living in Riyadh, Saudi Arabia"],
+                  strings: ["I'm a 17yo silly developer, living in Riyadh, Saudi Arabia"],
                   loop: false,
                   autoStart: true,
                   deleteSpeed: 604800000,
