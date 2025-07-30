@@ -16,14 +16,14 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
           ref={descRef}
         >
           <h1 className="font-bold lg:text-7xl md:text-6xl sm:text-5xl text-4xl">
-            Heya! I&apos;m Adien! :3<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
+            Heya! I&apos;m Adien! ^w^<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
           </h1>
           <p className="font-semibold lg:text-3xl md:text-2xl sm:text-xl text-lg">
             {inView &&
               <Typewriter
                 options={{
                   delay: 30,
-                  strings: ["Just a very silly developer, looking for other silly friends! :D"],
+                  strings: ["a very silly developer, looking for other silly friends! :3"],
                   loop: false,
                   autoStart: true,
                   deleteSpeed: 604800000,
@@ -42,7 +42,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
               delay={0.3}
             />
             <SocialIcon
-              url="https://t.me/@sevenrab"
+              url="https://t.me/@overshaded"
               icon={<svg role="img" className="h-7 w-7 fill-neutral-400" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.2,4.4L2.9,10.7c-1.1,0.4-1.1,1.1-0.2,1.3l4.1,1.3l1.6,4.8c0.2,0.5,0.1,0.7,0.6,0.7c0.4,0,0.6-0.2,0.8-0.4 c0.1-0.1,1-1,2-2l4.2,3.1c0.8,0.4,1.3,0.2,1.5-0.7l2.8-13.1C20.6,4.6,19.9,4,19.2,4.4z M17.1,7.4l-7.8,7.1L9,17.8L7.4,13l9.2-5.8 C17,6.9,17.4,7.1,17.1,7.4z"></path></svg>}
               delay={1.2}
             />
