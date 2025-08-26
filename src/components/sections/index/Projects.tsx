@@ -26,7 +26,7 @@ export default function Projects() {
             </div>
           }
           <ProjectCard
-            url="https://nightm4re.cc"
+            url="https://api.7rab.xyz"
             title="Nightmare"
             fullDescription={[
               "I have been running Nightmare for over a year now, crazy right? Nightmare taught me alot of things that a basic programmer should know, of course one of them was security because we nearly got breached in the early months.",
