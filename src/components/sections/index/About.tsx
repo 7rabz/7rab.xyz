@@ -98,7 +98,7 @@ export default function About() {
         <ul className="grid grid-cols-2 gap-4 mt-4">
           <AboutCard
             title="Overall"
-            description="Heya! I'm Silly Hexa, also known as Adien. I love poking around in debuggers and getting into a good TV series every now and then. I've been in the coding world for almost four years now, always curious and learning. I'm usually pretty friendly, just please don't be a mean kitty, or I might hiss a little."
+            description="Heya! I'm Silly Hexa, also known as Adien. I love poking around in debuggers and getting into a good TV series every now and then. I've been in the coding world for almost four years now, always curious and learning. I'm usually pretty friendly, my favoruit letr is h btw."
             direction="top"
             span={2}
             delay={0.1}
