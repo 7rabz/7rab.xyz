@@ -49,6 +49,39 @@ export default function About() {
   const [presence, setPresence] = useState<Presence | null>(null);
   const [date, setDate] = useState(new Date());
 
+  useEffect(() => {
+    const socket = new WebSocket(`wss://api.7rab.xyz/presence`)
+  
+    const handleOpen = () => {
+      socket.send("Connection established")
+    }
+  
+    const handleMessage = (event: MessageEvent) => {
+      if (event.data === "connected") return
+      if (event.data === "pong") return
+      setPresence(JSON.parse(event.data))
+    }
+
+    let ping = setInterval(() => {
+      socket.send("ping")
+    }, 10000)
+  
+    socket.addEventListener("open", handleOpen)
+    socket.addEventListener("message", handleMessage)
+  
+    const timer = setInterval(() => {
+      setDate(new Date())
+    }, 1000)
+  
+    return () => {
+      socket.removeEventListener("open", handleOpen)
+      socket.removeEventListener("message", handleMessage)
+      socket.close()
+      clearInterval(ping)
+      clearInterval(timer)
+    }
+  }, [])
+
 
   return (
     <>
@@ -98,6 +131,16 @@ export default function About() {
             delay={0.1}
             gradient="bg-gradient-to-tr"
           />
+          {presence && presence.activities.length > 0 &&
+            <PresenceCard
+              presence={presence}
+              date={date}
+              direction="bottom"
+              span={1}
+              delay={0.1}
+              gradient="bg-gradient-to-tl"
+            />
+          }
         </ul>
       </section>
     </>
