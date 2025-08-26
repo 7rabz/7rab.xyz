@@ -19,7 +19,7 @@ export default function Experience() {
                 </motion.h1>
                 <ul className={`flex flex-col pt-6 pb-1 gap-4 overflow-hidden`}>
                     <ExperienceCard
-                        url="https://nightm4re.cc"
+                        url="https://api.7rab.xyz/"
                         title="Nightmare.cc"
                         fullDescription={[
                             "Nightmare is a Advanced Roblox Alt Controler, an Alt Control Script (ARAC, or ACS) | Nightmare can be used to manage your roblox workspace or just used for fun.",
