@@ -9,7 +9,7 @@ export default function Footer() {
                     7rab.xyz - Made with NextJS, TailwindCSS, and ❤ by me
                 </p>
                 <p className="text-center font-medium brightness-75 text-base">
-                    Last updated: June 18th, 2025
+                    Last updated: August 26th, 2025
                 </p>
             </footer>
         </>
