@@ -30,7 +30,7 @@ export default function Experience() {
                             "https://7rab.xyz/image.png",
                         ]}
                         myRole="Developer"
-                        timeline="June 16 - Current"
+                        timeline="2025 June 16 - Current"
                         delay={0.1}
                         gradient="bg-gradient-to-br"
                     />
