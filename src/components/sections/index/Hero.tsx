@@ -72,7 +72,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                 <svg
                   role="img"
                   className="h-7 w-7 fill-neutral-400"
-                  viewBox="0 0 512 512"
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <g fill="currentColor" transform="translate(85.333333, 42.666667)">
