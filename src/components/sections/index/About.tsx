@@ -143,7 +143,7 @@ export default function About() {
           />
            <AboutCard
               title="PGP Signing"
-              description="I use PGP encryption for sensitive communications. PGP ensures that messages are encrypted end-to-end, protecting against eavesdropping and ensuring."
+              description="I use PGP encryption for sensitive communications. PGP ensures that messages are encrypted end-to-end, protecting against eavesdropping."
               link="/pgp.txt"
               direction="bottom"
               span={1}
