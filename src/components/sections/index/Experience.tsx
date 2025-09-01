@@ -25,7 +25,7 @@ export default function Experience() {
                             "meeeowwww :3"
                         ]}
                         cardImage="https://7rab.xyz/me.png"
-                        cardDescription="very silly autobiography about myself 🤯"
+                        cardDescription="A creative full-stack developer with nearly 4 years of coding experience, specializing in backend development while maintaining strong frontend skills. Passionate about debugging, modern web technologies, and building fun projects. Features a comprehensive tech stack including React, Next.js, Node.js, MongoDB, and various cloud services. Built with Next.js and TailwindCSS, showcasing both technical expertise and playful personality through interactive design and smooth animations."
                         media={[
                             "https://7rab.xyz/image.png",
                         ]}
