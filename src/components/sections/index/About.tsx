@@ -104,6 +104,16 @@ export default function About() {
             delay={0.1}
             gradient="bg-gradient-to-tl"
           />
+          {presence && presence.activities.length > 0 &&
+            <PresenceCard
+              presence={presence}
+              date={date}
+              direction="bottom"
+              span={2}
+              delay={0.1}
+              gradient="bg-gradient-to-tl"
+            />
+          }
           <AboutCard
             title="Frontend"
             description="I have about 6 months of solid experience overall, but I've been building frontends for nearly 9 months, Frontend has never really been my main focus."
@@ -133,22 +143,13 @@ export default function About() {
           />
            <AboutCard
               title="PGP Signing"
-              description="You can send me encrypted messages using my PGP Public Key at /pgp <3"
-              direction="top"
+              description="I use PGP encryption for sensitive communications. PGP ensures that messages are encrypted end-to-end, protecting against eavesdropping and ensuring."
+              link="/pgp.txt"
+              direction="bottom"
               span={1}
               delay={0.1}
               gradient="bg-gradient-to-tr"
             />
-          {presence && presence.activities.length > 0 &&
-            <PresenceCard
-              presence={presence}
-              date={date}
-              direction="bottom"
-              span={2}
-              delay={0.1}
-              gradient="bg-gradient-to-tl"
-            />
-          }
         </ul>
       </section>
     </>
