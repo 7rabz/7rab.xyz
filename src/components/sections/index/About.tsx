@@ -127,16 +127,24 @@ export default function About() {
             description="When it comes to development, I rely on a variety of major tools to streamline and support my daily workflow."
             tech={otherTech}
             direction="bottom"
-            span={presence && presence.activities.length > 0 ? 1 : 2}
+            span={1}
             delay={0.1}
             gradient="bg-gradient-to-tr"
           />
+           <AboutCard
+              title="PGP Signing"
+              description="You can send me encrypted messages using my PGP Public Key at /pgp <3"
+              direction="top"
+              span={1}
+              delay={0.1}
+              gradient="bg-gradient-to-tr"
+            />
           {presence && presence.activities.length > 0 &&
             <PresenceCard
               presence={presence}
               date={date}
               direction="bottom"
-              span={1}
+              span={2}
               delay={0.1}
               gradient="bg-gradient-to-tl"
             />
