@@ -104,11 +104,11 @@ export default function About() {
             delay={0.1}
             gradient="bg-gradient-to-tl"
           />
-          {presence && presence.activities.length > 0 &&
+          {presence && presence.activities && presence.activities.length > 0 &&
             <PresenceCard
               presence={presence}
               date={date}
-              direction="bottom"
+              direction="top"
               span={2}
               delay={0.1}
               gradient="bg-gradient-to-tl"
