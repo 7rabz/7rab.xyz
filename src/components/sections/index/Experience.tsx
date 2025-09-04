@@ -24,13 +24,13 @@ export default function Experience() {
                         fullDescription={[
                             "meeeowwww :3"
                         ]}
-                        cardImage="https://cdn.7rab.xyz/me.png"
-                        cardDescription="A creative full-stack developer with nearly 4 years of coding experience, specializing in backend development while maintaining strong frontend skills. Passionate about debugging, modern web technologies, and building fun projects. Features a comprehensive tech stack including React, Next.js, Node.js, MongoDB, and various cloud services. Built with Next.js and TailwindCSS, showcasing both technical expertise and playful personality through interactive design and smooth animations."
+                        cardImage="https://cdn.7rab.xyz/image.png"
+                        cardDescription="A creative full-stack developer with nearly 4 years of coding experience, specializing in backend development while maintaining strong frontend skills. Passionate about debugging, modern web technologies, and building fun projects."
                         media={[
-                            "https://cdn.7rab.xyz/image.png",
+                            "https://cdn.7rab.xyz/me.png",
                         ]}
                         myRole="Developer"
-                        timeline="2025 June 16 - Current"
+                        timeline="June 16, 2025 - Current"
                         delay={0.1}
                         gradient="bg-gradient-to-br"
                     />
