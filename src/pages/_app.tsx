@@ -9,17 +9,17 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextSeo
-        title={"[ 7rab.xyz ~ sillyhexa / bio ]"}
-        description={"Adien's personal website, hosted on a few potatos and some kilobytes of ram."}
+        title={"[ sillyhexa's page / bio ]"}
+        description={"mrawr :3 | Read more about me, just click the link above!"}
         canonical={`https://7rab.xyz${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
         themeColor={"#2563eb"}
         openGraph={{
           url: `https://7rab.xyz${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
-          title: "[ 7rab.xyz ~ sillyhexa / bio ]",
-          description: "Adien's personal website, hosted on a few potatos and some kilobytes of ram.",
+          title: "[ sillyhexa's page / bio ]",
+          description: "mrawr :3 | Read more about me, just click the link above!",
           images: [
             {
-              url: "https://cdn.discordapp.com/avatars/1042440993028460594/8fb2a45a551b86f0489d8af28456e31c.webp?size=1024",
+              url: "https://cdn.7rab.xyz/image.png",
               alt: "silly hexa!",
             },
           ],
