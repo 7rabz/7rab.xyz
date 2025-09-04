@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Note</title>
+</head>
+<body>
+  <h1>Secure Note</h1>
+  <div id="note">Enter the correct key in the URL to reveal the note.</div>
+
+  <script>
+    async function decryptAES(encryptedHex, key) {
+      const enc = new TextEncoder();
+      const dec = new TextDecoder();
+
+      const encryptedBytes = new Uint8Array(encryptedHex.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
+
+      const iv = encryptedBytes.slice(0, 12); // AES-GCM uses 12-byte IV
+      const ciphertext = encryptedBytes.slice(12);
+
+      const cryptoKey = await crypto.subtle.importKey(
+        'raw',
+        enc.encode(key),
+        'AES-GCM',
+        false,
+        ['decrypt']
+      );
+
+      const decrypted = await crypto.subtle.decrypt(
+        { name: 'AES-GCM', iv },
+        cryptoKey,
+        ciphertext
+      );
+
+      return dec.decode(decrypted);
+    }
+
+    const encryptedNote = "50268b4c3f0b0a157f8d53b6c520a571302e00aa45b6cc663d8c86bbdc0667640a5b97d72bb27e011efd8046991fe72f5e"; 
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const key = urlParams.get('key');
+
+    if (key) {
+      decryptAES(encryptedNote, key)
+        .then(text => {
+          document.getElementById('note').textContent = text;
+        })
+        .catch(err => {
+          document.getElementById('note').textContent = 'Invalid key or corrupted note.';
+        });
+    }
+  </script>
+</body>
+</html>
