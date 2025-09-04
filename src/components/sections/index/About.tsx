@@ -98,7 +98,7 @@ export default function About() {
         <ul className="grid grid-cols-2 gap-4 mt-4">
           <AboutCard
             title="Overall"
-            description="Heya! I'm Silly Hexa, also known as Adien. I love poking around in debuggers and getting into a good TV series every now and then. I've been in the coding world for almost four years now, always curious and learning. I'm usually pretty friendly, my favoruit letr is h btw."
+            description="Heya, I am Silly Hexa, also known as Adien. I have been programming for nearly four years and enjoy solving problems, learning new concepts, and working with different tools. Outside of coding I like watching TV series and exploring technology, and my favorite letter is h."
             direction="top"
             span={2}
             delay={0.1}
@@ -116,7 +116,7 @@ export default function About() {
           }
           <AboutCard
             title="Frontend"
-            description="I have about 6 months of solid experience overall, but I've been building frontends for nearly 9 months, Frontend has never really been my main focus."
+            description="I have about six months of solid experience overall and around nine months in frontend development. While frontend is not my main focus, it has given me useful insight into building user-facing applications."
             tech={frontendTech}
             direction="left"
             span={1}
@@ -125,7 +125,7 @@ export default function About() {
           />
           <AboutCard
             title="Backend"
-            description="I've got nearly 2 years of experience with backends, and I love connecting or integrating with them! I mainly only focus on Backend than anything else :3"
+            description="I have nearly two years of experience with backends and enjoy connecting and integrating with them. Backend development is my main focus and passion."
             tech={backendTech}
             direction="right"
             span={1}
@@ -144,7 +144,7 @@ export default function About() {
            <AboutCard
               title="PGP Signing"
               description="I use PGP encryption for sensitive communications. PGP ensures that messages are encrypted end-to-end, protecting against eavesdropping."
-              link="/pgp.txt"
+              link="https://cdn.7rab.xyz/pgp.txt"
               direction="bottom"
               span={1}
               delay={0.1}
