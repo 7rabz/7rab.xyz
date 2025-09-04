@@ -125,7 +125,7 @@ export default function About() {
           />
           <AboutCard
             title="Backend"
-            description="I have nearly two years of experience with backends and enjoy connecting and integrating with them. Backend development is my main focus and passion."
+            description="I have nearly two years of solid experience overall and have focused on backend development. Backend has always been my primary focus, and it has given me experience on connecting and integrating systems effectively."
             tech={backendTech}
             direction="right"
             span={1}
