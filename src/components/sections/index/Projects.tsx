@@ -35,7 +35,7 @@ export default function Projects() {
               "Nightmare was orignally based on Fermium, a fake \"Alt Controller\" which people bought and believed in, Fermium was actually already deployed & working, but it was just a popular roblox script called Nameless Admin, they couldnt have more than 1+ customer using the bot at once.",
               "But in the end, Nightmare is offically discontinued on 6/16/2025, I sadly can't handle the website nor script anymore, None of the sources are for sale! This has been a nice ride for all of us. Thank you <3"
             ]}
-            cardImage="https://cdn.discordapp.com/attachments/1304046095361507358/1409956415740838098/Nightmare.jpg?ex=68af43bd&is=68adf23d&hm=8f455938c7c372bfa3f7bb87227299ffe48bf6d40b4b3318f0434a2ccede26a5&"
+            cardImage="https://github.com/7rabz/7rab.xyz/blob/main/public/Nightmare.jpg?raw=true"
             cardDescription="Nightmare is a Advanced Roblox Alt Controler, an Alt Control Script (ARAC, or ACS) | Nightmare can be used to manage your roblox workspace or just used for fun."
             media={[
               "https://files.catbox.moe/edplr6.mp4",
