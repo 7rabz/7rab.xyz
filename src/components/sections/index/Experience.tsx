@@ -22,7 +22,7 @@ export default function Experience() {
                         url="https://7rab.xyz/"
                         title="7rab.xyz"
                         fullDescription={[
-                            "meeeowwww :3"
+                            "stop stalking and start talking"
                         ]}
                         cardImage="https://cdn.7rab.xyz/image.png"
                         cardDescription="A creative full-stack developer with nearly 4 years of coding experience, specializing in backend development while maintaining strong frontend skills. Passionate about debugging, modern web technologies, and building fun projects."
