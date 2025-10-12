@@ -16,14 +16,14 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
           ref={descRef}
         >
           <h1 className="font-bold lg:text-7xl md:text-6xl sm:text-5xl text-4xl">
-            Heya! I&apos;m Adien! ^w^<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
+            Heya! I&apos;m Type! :)<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
           </h1>
           <p className="font-semibold lg:text-3xl md:text-2xl sm:text-xl text-lg">
             {inView &&
               <Typewriter
                 options={{
                   delay: 30,
-                  strings: ["a very silly developer, looking for other silly friends! :3"],
+                  strings: ["a very retarded developer, looking for other retarded developers duh obviously"],
                   loop: false,
                   autoStart: true,
                   deleteSpeed: 604800000,
