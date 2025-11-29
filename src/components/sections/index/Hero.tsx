@@ -24,7 +24,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                 options={{
                   delay: 30,
                   strings: ["a truly retarded developer, looking for other retarded developers", "my new discord account is 7rabb#0"],
-                  loop: false,
+                  loop: true,
                   autoStart: true,
                   deleteSpeed: 604800000,
                 }}
