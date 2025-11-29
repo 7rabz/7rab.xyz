@@ -18,15 +18,12 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
           <h1 className="font-bold lg:text-7xl md:text-6xl sm:text-5xl text-4xl">
             Heya! I&apos;m Hex! :)<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
           </h1>
-          <h1 className="font-bold lg:text-7xl md:text-6xl sm:text-5xl text-4xl">
-            My new discord account is 7rabb#0<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
-          </h1>
           <p className="font-semibold lg:text-3xl md:text-2xl sm:text-xl text-lg">
             {inView &&
               <Typewriter
                 options={{
                   delay: 30,
-                  strings: ["a truly retarded developer, looking for other retarded developers"],
+                  strings: ["a truly retarded developer, looking for other retarded developers", "my new discord account is 7rabb#0"],
                   loop: false,
                   autoStart: true,
                   deleteSpeed: 604800000,
