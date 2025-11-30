@@ -16,7 +16,7 @@ export default function Home() {
 
     function handleEnter(e: any) {
         if (e.key === 'Enter') {
-            window.open(`https://duckduckgo.com/?t=lm&q=${search}&ia=web`, '_blank')
+            window.open(`https://www.google.com/search?q=${search}`, '_blank')
             setSearch('')
         }
     }
@@ -37,7 +37,7 @@ export default function Home() {
                     </h1>
                     <div className={`${pageLoad ? 'animate-fade-in-bottom' : 'opacity-0'} w-1/2 mx-auto pt-8`}>
                         <label htmlFor="search" className="block text-sm font-medium leading-6">
-                            Search DuckDuckGo
+                            Search Google
                         </label>
                         <div className="relative mt-2 flex items-center">
                             <input
