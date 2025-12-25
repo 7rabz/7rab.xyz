@@ -46,7 +46,7 @@ export default function About() {
     { title: "Linux", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />, link: "https://www.linux.org/" },
   ]
 
-  const [presence, setPresence] = useState<Presence | null>(null);
+  /* const [presence, setPresence] = useState<Presence | null>(null);
   const [date, setDate] = useState(new Date());
 
   useEffect(() => {
@@ -81,6 +81,7 @@ export default function About() {
       clearInterval(timer)
     }
   }, [])
+  */
 
 
   return (
