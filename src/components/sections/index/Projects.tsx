@@ -33,7 +33,8 @@ export default function Projects() {
               "Nightmare's most notable project is NightAuth, which helps people to integrate all their data into the script, kinda like a authentication system but tweaked. NightAuth is made with JS and hosted on Namecheap's Stellar subscription",
               "Nightmare is basically handled by a single developer, which is me, I host all projects and sub-projects for nightmare, and I handle all Backend + Frontend, along with User Data",
               "Nightmare was orignally based on Fermium, a fake \"Alt Controller\" which people bought and believed in, Fermium was actually already deployed & working, but it was just a popular roblox script called Nameless Admin, they couldnt have more than 1+ customer using the bot at once.",
-              "But in the end, Nightmare is offically discontinued on 6/16/2025, I sadly can't handle the website nor script anymore, None of the sources are for sale! This has been a nice ride for all of us. Thank you <3"
+              "But in the end, Nightmare is offically discontinued on 6/16/2025, I sadly can't handle the website nor script anymore, None of the sources are for sale! This has been a nice ride for all of us. Thank you <3",
+              "[2026] psst, over here! this project kickstarted my new project syscure, a authentication platform! go check it out :>"
             ]}
             cardImage="https://github.com/7rabz/7rab.xyz/blob/main/public/Nightmare.jpg?raw=true"
             cardDescription="Nightmare is a Advanced Roblox Alt Controler, an Alt Control Script (ARAC, or ACS) | Nightmare can be used to manage your roblox workspace or just used for fun."
@@ -44,6 +45,24 @@ export default function Projects() {
             ]}
             myRole="Founder/Head Developer"
             timeline="June 2024 - June 2025"
+            delay={0.1}
+            gradient="bg-gradient-to-tl"
+          />
+          <ProjectCard
+            url="https://syscure.vip/"
+            title="syscure"
+            fullDescription={[
+              "Syscure is a extremely cheap LuaU whitelisting / authentication platform with a website& custom discord bots, using millitary-grade security & anti-tamper, with no prices based on a greedy jew.",
+              "I also do not get any profit whatsoever from this, proving the greedy price claim. You can check with a reseller, this costs nearly nothing for me to host <3",
+              "This project is still in BETA & might experience rare errors, but most are fixed immediately or due to a user error."
+            ]}
+            cardImage="https://content.syscure.vip/cropped_circle_image.png"
+            cardDescription="Syscure is a extremely cheap LuaU whitelisting / authentication platform with a website & custom discord bots, using military-grade security & anti-tamper."
+            media={[
+              ""
+            ]}
+            myRole="Founder & Only developer"
+            timeline="December 2025 - Present"
             delay={0.1}
             gradient="bg-gradient-to-tl"
           />
