@@ -19,7 +19,12 @@ export default function ProjectCard({ url, title, fullDescription, cardDescripti
         viewport={{ amount: 0.1, once: true }}
       >
         <div className={`p-4 flex flex-col ${gradient} from-primary to-secondary rounded-lg border-1 border-accent shadow-2xl shadow-background items-center`}>
-          <img alt="" draggable={false} className="rounded-lg border-1 border-accent mb-4 duration-300" src={cardImage} />
+          <img
+            alt=""
+            draggable={false}
+            src={cardImage}
+            className="w-40 h-40 object-cover rounded-full border border-accent mb-4 duration-300"
+          />
           <h2 className="text-center font-semibold text-4xl">
             {title}
           </h2>
