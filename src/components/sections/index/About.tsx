@@ -83,7 +83,19 @@ export default function About() {
   }, [])
   */
 
-
+          /*
+          {presence && presence.activities && presence.activities.length > 0 &&
+            <PresenceCard
+              presence={presence}
+              date={date}
+              direction="top"
+              span={2}
+              delay={0.1}
+              gradient="bg-gradient-to-tl"
+            />
+          }
+          */
+  
   return (
     <>
       <section id='about' className="max-w-4xl w-full flex flex-col mx-auto">
@@ -105,16 +117,6 @@ export default function About() {
             delay={0.1}
             gradient="bg-gradient-to-tl"
           />
-          {presence && presence.activities && presence.activities.length > 0 &&
-            <PresenceCard
-              presence={presence}
-              date={date}
-              direction="top"
-              span={2}
-              delay={0.1}
-              gradient="bg-gradient-to-tl"
-            />
-          }
           <AboutCard
             title="Frontend"
             description="I have about six months of solid experience overall and around nine months in frontend development. While frontend is not my main focus, it has given me useful insight into building user-facing applications."
