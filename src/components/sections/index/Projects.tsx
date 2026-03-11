@@ -2,6 +2,34 @@ import Button from "@/components/Button";
 import ProjectCard from "@/components/ProjectCard";
 import { motion } from "framer-motion";
 import { useState } from "react";
+/*
+      Hi there stalker! Enjoy nightmare below, commented it out since i'm not supporting this anymore.
+      Roblox has shutdown chat in my country, and so did nightmare. Goodbye, stalker!
+      
+        <ProjectCard
+          url="https://api.7rab.xyz"
+          title="Nightmare"
+          fullDescription={[
+            "I have been running Nightmare for over a year now. Nightmare taught me a lot of things that a basic programmer should know. One of them was security because we nearly got breached in the early months.",
+            "Nightmare's most notable project is NightAuth, which helps people integrate their data into scripts, similar to an authentication system but tweaked. NightAuth is written in JS and hosted on Namecheap's Stellar subscription.",
+            "Nightmare is basically handled by a single developer — me. I host all projects and sub-projects for Nightmare and handle all backend + frontend along with user data.",
+            "Nightmare was originally based on Fermium, a fake 'Alt Controller' which people bought and believed in. Fermium was actually deployed & working but it was just a popular Roblox script called Nameless Admin. They couldn't have more than one customer using the bot at once.",
+            "In the end Nightmare was officially discontinued on 6/16/2025. I sadly couldn't maintain the website nor script anymore. None of the sources are for sale. This has been a nice ride for all of us. Thank you <3",
+            "[2026] psst, over here! This project kickstarted my new project Syscure, an authentication platform! Go check it out :>"
+          ]}
+          cardImage="https://github.com/7rabz/7rab.xyz/blob/main/public/Nightmare.jpg?raw=true"
+          cardDescription="Nightmare is an advanced Roblox alt controller (ARAC / ACS). It can manage Roblox workspaces or be used for fun."
+          media={[
+            "https://files.catbox.moe/edplr6.mp4",
+            "https://files.catbox.moe/u0hzzl.mp4",
+            "https://files.catbox.moe/d6mtbp.mp4",
+          ]}
+          myRole="Founder / Head Developer"
+          timeline="June 2024 - June 2025"
+          delay={0.1}
+          gradient="bg-gradient-to-tl"
+        />
+*/
 
 export default function Projects() {
   // set to true by default for now because there aren't enough projects to warrant a show more button
@@ -40,30 +68,6 @@ export default function Projects() {
             />
           </div>
         )}
-
-        <ProjectCard
-          url="https://api.7rab.xyz"
-          title="Nightmare"
-          fullDescription={[
-            "I have been running Nightmare for over a year now. Nightmare taught me a lot of things that a basic programmer should know. One of them was security because we nearly got breached in the early months.",
-            "Nightmare's most notable project is NightAuth, which helps people integrate their data into scripts, similar to an authentication system but tweaked. NightAuth is written in JS and hosted on Namecheap's Stellar subscription.",
-            "Nightmare is basically handled by a single developer — me. I host all projects and sub-projects for Nightmare and handle all backend + frontend along with user data.",
-            "Nightmare was originally based on Fermium, a fake 'Alt Controller' which people bought and believed in. Fermium was actually deployed & working but it was just a popular Roblox script called Nameless Admin. They couldn't have more than one customer using the bot at once.",
-            "In the end Nightmare was officially discontinued on 6/16/2025. I sadly couldn't maintain the website nor script anymore. None of the sources are for sale. This has been a nice ride for all of us. Thank you <3",
-            "[2026] psst, over here! This project kickstarted my new project Syscure, an authentication platform! Go check it out :>"
-          ]}
-          cardImage="https://github.com/7rabz/7rab.xyz/blob/main/public/Nightmare.jpg?raw=true"
-          cardDescription="Nightmare is an advanced Roblox alt controller (ARAC / ACS). It can manage Roblox workspaces or be used for fun."
-          media={[
-            "https://files.catbox.moe/edplr6.mp4",
-            "https://files.catbox.moe/u0hzzl.mp4",
-            "https://files.catbox.moe/d6mtbp.mp4",
-          ]}
-          myRole="Founder / Head Developer"
-          timeline="June 2024 - June 2025"
-          delay={0.1}
-          gradient="bg-gradient-to-tl"
-        />
 
         <ProjectCard
           url="https://syscure.vip/"
